@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+/*Header/cabeçalho*/
+
+header{
+    background-color: #00050d;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+header a:hover{
+    background-color: white;
+    color: #00050d;
+     border-radius: 10px;
+}
+a:hover .roda{
+    color: black;
+   
+}
+
+header a{
+    padding: 10px 10px;
+}
+
+header a i :hover{
+    color: black;
+}
+
+/*Div 1*/
+
+.fistdiv{
+    display: flex;
+    align-items: center;
+}
+.fistdiv img{
+    width: 96px;
+    cursor: pointer;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.fistdiv nav{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+.fistdiv nav a .roda{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 20px;
+    gap: 2px;
+}
+#link{
+    display: flex;
+    align-items: center;
+}
+
+
+/*Div 2:*/
+
+.twodiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+button:hover i{
+    color: #00050d;
+}
+.twodiv a:hover{
+    border-radius: 50%;
+
+}
+a:hover i{
+    color: #00050d;
+}
+.twodiv button:hover{
+    background-color: white;
+    color: #00050d;
+    border-radius: 50%;
+    
+}
+.twodiv button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.twodiv i{
+    font-size: 20px;
+}
+
+/*img*/
+
+.twodiv img{
+    width: 30px;
+}
+.twodiv .imgs{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.twodiv .imgs:hover{
+    border: 6px solid #fff;
+}
+/*Botão assinar*/
+
+#assinar{
+    background-color: #1a98ff;
+    margin-right: 30px;
+    padding: 11px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+#assinar:hover{
+    background-color: #389ef1;
+}
+
+.tree{
+display: flex;
+align-items: center;
+
+}
